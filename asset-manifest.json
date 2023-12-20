@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/VITCL_auction1/static/css/main.b4798146.css",
-    "main.js": "/VITCL_auction1/static/js/main.bab87d95.js",
+    "main.js": "/VITCL_auction1/static/js/main.679b5624.js",
     "static/js/787.789f00e6.chunk.js": "/VITCL_auction1/static/js/787.789f00e6.chunk.js",
     "index.html": "/VITCL_auction1/index.html",
     "main.b4798146.css.map": "/VITCL_auction1/static/css/main.b4798146.css.map",
-    "main.bab87d95.js.map": "/VITCL_auction1/static/js/main.bab87d95.js.map",
+    "main.679b5624.js.map": "/VITCL_auction1/static/js/main.679b5624.js.map",
     "787.789f00e6.chunk.js.map": "/VITCL_auction1/static/js/787.789f00e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4798146.css",
-    "static/js/main.bab87d95.js"
+    "static/js/main.679b5624.js"
   ]
 }
