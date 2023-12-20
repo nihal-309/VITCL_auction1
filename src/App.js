@@ -18,6 +18,7 @@ function App() {
         <Card key="9" name="FISCHER" purse="400000"/>
         <Card key="10" name="KARPOV" purse="400000"/>
       </div>
+      <footer>By Nihal J</footer>
     </div>
   );
 }
