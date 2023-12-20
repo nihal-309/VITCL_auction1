@@ -1,3 +1,10 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat'
+}
+
 .App {
   text-align: center;
 }
@@ -28,6 +35,10 @@
   color: #61dafb;
 }
 
+body{
+  background-color: #a4c3b2;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +47,74 @@
     transform: rotate(360deg);
   }
 }
+
+.Head{
+  background-color: #337def;
+  height: 50px;
+  width:inherit;
+  font-size: 2.3rem;
+  font-family: 'Roboto';
+  color: #fcc729;
+  text-align: center;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+  /* padding: 3px; */
+  margin-bottom: 20px;
+}
+
+input{
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 200px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 5px 10px;
+  margin: 0 auto 10px auto;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  font-weight: 300;
+}
+
+.Card{
+  background-color: #bebcc1;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  border-radius: 10px;
+  padding: 12px;
+  height: max-content;
+  margin: 10px;
+}
+
+.in1{
+  margin-left: 20px;
+}
+
+li {
+  display: list-item;
+  list-style-position: inside;
+}
+
+.Card button{
+  width: 80px;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(20%, auto); 
+}
+
+.head{
+  font-size: 2rem;
+}
+
+.head1{
+  font-size: 1.2rem;
+}
+
