@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Header />
       <div className="grid-container">
-        <Card key="1" name="NEPO" purse="400000"/>
+        <Card key="1" name="NEPO" purse="350000"/>
         <Card key="2" name="LASKER" purse="400000"/>
         <Card key="3" name="TAL" purse="400000"/>
         <Card key="4" name="VIDIT" purse="400000"/>
