@@ -22,6 +22,8 @@ function App() {
         <Card key="8" name="KASPAROV" purse="500000"/>
         <Card key="9" name="FISCHER" purse="500000"/>
         <Card key="10" name="KARPOV" purse="500000"/>
+        <Card key="11" name="HUMPY" purse="500000"/>
+        <Card key="12" name="VISHY" purse="500000"/>
       </div>
       <footer>By Nihal J</footer>
     </div>
