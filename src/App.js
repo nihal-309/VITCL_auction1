@@ -2,22 +2,13 @@ import './App.css';
 import Header from "./components/Head";
 import Card  from "./components/Card";
 
-// This function will be called when the user tries to refresh
-function disableRefresh() {
-  // Display an alert to inform the user that refreshing is disabled
-  alert("Refresh is disabled for this page.");
-  // Prevent the default browser refresh behavior
-  return false;
-}
-
-// Attach the function to various events related to page refresh
-window.onbeforeunload = disableRefresh;
-window.onunload = disableRefresh;
+window.addEventListener('beforeunload', function (event) {
+  event.preventDefault();
+  
+})
 
 function App() {
   return (
-    window.onbeforeunload = disableRefresh,
-    window.onunload = disableRefresh,
     <div className="App">
       <Header />
       <div className="grid-container">
