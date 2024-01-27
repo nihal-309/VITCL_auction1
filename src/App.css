@@ -107,10 +107,10 @@ li {
 
 .grid-container{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(20%, auto); 
-  flex-grow: 1;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* gap: 10px; */
+  /* grid-auto-rows: minmax(20%, auto);  */
+  /* flex-grow: 1; */
 }
 
 .head{
